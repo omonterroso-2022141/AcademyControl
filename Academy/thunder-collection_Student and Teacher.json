@@ -1,0 +1,162 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Student and Teacher",
+    "dateExported": "2024-02-23T16:17:36.942Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6f743aa4-d711-4c5c-8c89-fe6474f4621c",
+            "colId": "6a27b0fe-0dfe-45de-a85e-c669a287fdf8",
+            "containerId": "",
+            "name": "registerTeacher",
+            "url": "localhost:2880/registerTeacher",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-23T06:54:26.313Z",
+            "modified": "2024-02-23T07:49:47.313Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHVkZW50aWQiOiI2NWQ4NGQ4YzVlYjljNTA2ZThlM2FkMjMiLCJ1c2VybmFtZSI6Im9zY2FyaW4iLCJuYW1lIjoiT3NjYXIiLCJyb2xlIjoiVEVBQ0hFUl9ST0xFIiwiaWF0IjoxNzA4Njc0NTY2LCJleHAiOjE3MDg2ODUzNjZ9.LfOAV1ILQueGVVndzxBQsjE9g8oZhlgOr3V9Vev-Mcc"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Luicito"
+                    },
+                    {
+                        "name": "gmail",
+                        "value": "lluis@gmail.com"
+                    },
+                    {
+                        "name": "username",
+                        "value": "luicito"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7403d027-a3ef-41ce-aaed-0262e214652a",
+            "colId": "6a27b0fe-0dfe-45de-a85e-c669a287fdf8",
+            "containerId": "",
+            "name": "loginTS",
+            "url": "localhost:2880/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-23T07:07:49.172Z",
+            "modified": "2024-02-23T08:31:04.139Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "oscarin"
+                    },
+                    {
+                        "name": "password",
+                        "value": "oscarin1"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7294b61f-9d65-4081-8e17-92439f95c0c1",
+            "colId": "6a27b0fe-0dfe-45de-a85e-c669a287fdf8",
+            "containerId": "",
+            "name": "registerStudent",
+            "url": "localhost:2880/registerStudent",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-23T07:23:24.072Z",
+            "modified": "2024-02-23T08:10:00.081Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Luis"
+                    },
+                    {
+                        "name": "email",
+                        "value": "luicito@gmail.com"
+                    },
+                    {
+                        "name": "username",
+                        "value": "Maxi"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "17e622d2-b7bf-4e07-a19e-905d3858d5e4",
+            "colId": "6a27b0fe-0dfe-45de-a85e-c669a287fdf8",
+            "containerId": "",
+            "name": "updateTS",
+            "url": "localhost:2880/updateTS/65d852d81e688801fad8e037",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-23T08:20:52.030Z",
+            "modified": "2024-02-23T08:24:24.368Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHVkZW50aWQiOiI2NWQ4NGQ4YzVlYjljNTA2ZThlM2FkMjMiLCJ1c2VybmFtZSI6Im9zY2FyaW4iLCJuYW1lIjoiT3NjYXIiLCJyb2xlIjoiVEVBQ0hFUl9ST0xFIiwiaWF0IjoxNzA4Njc2NjQ4LCJleHAiOjE3MDg2ODc0NDh9.9TAg5qiT3eSJga6wj5iJfAFtBs1F9P6jjgOaxRgZouY"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "Maximiliano"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "db09c235-69f4-4b53-92cf-af263fcd58f8",
+            "colId": "6a27b0fe-0dfe-45de-a85e-c669a287fdf8",
+            "containerId": "",
+            "name": "deleteTS",
+            "url": "localhost:2880/deleteTS/65d852d81e688801fad8e037",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-02-23T08:29:39.330Z",
+            "modified": "2024-02-23T08:33:37.239Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHVkZW50aWQiOiI2NWQ4NGQ4YzVlYjljNTA2ZThlM2FkMjMiLCJ1c2VybmFtZSI6Im9zY2FyaW4iLCJuYW1lIjoiT3NjYXIiLCJyb2xlIjoiVEVBQ0hFUl9ST0xFIiwiaWF0IjoxNzA4Njc3MDY0LCJleHAiOjE3MDg2ODc4NjR9.P0yzLFQy18T-IiPf3-9_kPEAQ4sqcPlKwdRzYLkVfJY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

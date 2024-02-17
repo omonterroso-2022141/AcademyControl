@@ -1,12 +1,12 @@
 'use strict'
 
-
+//Rutas del usuario
 import { Router } from 'express'
-import { registerCourse, deleteCourse, updateCourse } from './course.controller.js'
+import { addCourse, deleteCourse, updateCourse } from './course.controller.js'
 
 const api = Router()
 
-api.post('/registerCourse', registerCourse)
+api.post('/addCourse', addCourse)
 api.put('/update/:id', updateCourse)
 api.delete('/delete/:id', deleteCourse)
 

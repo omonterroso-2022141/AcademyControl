@@ -3,11 +3,11 @@ import { model, Schema } from 'mongoose'
 const courceSchema = Schema({
     name: {
         type: String,
-        required: [true, 'Course name is required' ]
+        required: [true, 'Enter de name of the course' ]
     },
     description: {
         type: String,
-        required: [true, 'The course description is mandatory']
+        required: [true, 'Enter de description of the course']
     }
 })
 
